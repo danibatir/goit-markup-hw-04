@@ -380,10 +380,14 @@ margin-bottom:72px;
   gap : 24px;
 }
 .li-svg{
+  fill: var(--color-light);
+  background-color: var(--color-text);
   display:flex;
+  width: 40px;
+  height: 40px;
   align-items: center;
   justify-content: center;
-  border radius: 50%;
+  border-radius: 50%;
 }
 .customers{
   padding-top: 120px;
