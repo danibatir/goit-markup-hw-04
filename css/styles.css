@@ -112,6 +112,7 @@ body {
   color: #ffffffff;
   background-color: #404bbf;
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .order-service-button
@@ -226,6 +227,7 @@ margin-bottom:72px;
   min-width:264px;
   border-radius: 0px 0px 4px 4px;
   display:block;
+   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .background-white {
     background-color: #ffffffff;
@@ -242,6 +244,7 @@ margin-bottom:72px;
 .hero-header{
   justify-content: space-between;
   border-bottom:1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .hero-link{
   display:flex;
@@ -373,6 +376,10 @@ margin-bottom:72px;
   width: calc((100%-48px)/ 3);
   width:100%;
   min-width:264;
+}
+.portfolio-image:hover, 
+:focus{
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .footer-container{
   display: inline-block;
@@ -510,4 +517,7 @@ justify-content: center;
   letter-spacing: 0.02em;
   color:var(--white-color);
   margin-bottom:16px;
+}
+.svg-icons-section-four{
+  fill: var(--color-light);
 }
