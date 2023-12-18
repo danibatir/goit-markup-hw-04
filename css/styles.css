@@ -107,8 +107,13 @@ body {
 .button:last-child{
   margin-bottom: 72px;
 }
-.button:hover,
-:focus {
+.button:hover{
+  color: #ffffffff;
+  background-color: #404bbf;
+  border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.button:focus{
   color: #ffffffff;
   background-color: #404bbf;
   border: 1px solid transparent;
@@ -258,10 +263,14 @@ margin-bottom:72px;
   justify-content:flex-start;
 }
 .hero-section-one{
-  height:600px;
-  text-align: center;
-  padding:188px 0px;
-  max-width: 496px;
+ max-width: 1440px;
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-image.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 600px;
+top: 72px;
+padding: 188px 0;
 }
 .hero-section-button{
   display: block;
@@ -377,8 +386,10 @@ margin-bottom:72px;
   width:100%;
   min-width:264;
 }
-.portfolio-image:hover, 
-:focus{
+.portfolio-image:hover{
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.portfolio-image:focus {
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .footer-container{
