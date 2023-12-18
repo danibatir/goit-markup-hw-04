@@ -140,7 +140,7 @@ background-color: #404bbf;
 }
 
 .section-dark{ 
-  
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.png);
   background-size:cover;
   background-repeat:no-repeat;
   margin-inline:auto;
@@ -264,10 +264,6 @@ margin-bottom:72px;
 }
 .hero-section-one{
  max-width: 1440px;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.png);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
 height: 600px;
 top: 72px;
 padding: 188px 0;
