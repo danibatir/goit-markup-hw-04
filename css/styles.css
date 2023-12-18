@@ -140,7 +140,7 @@ background-color: #404bbf;
 }
 
 .section-dark{ 
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url("../images/people-office.png");
+  
   background-size:cover;
   background-repeat:no-repeat;
   margin-inline:auto;
@@ -264,7 +264,7 @@ margin-bottom:72px;
 }
 .hero-section-one{
  max-width: 1440px;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-image.jpg);
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.png);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -321,6 +321,7 @@ padding: 188px 0;
 
 }
 .item {
+  display:block;
   margin-left: 10px;
   margin-top: 10px;
   width: calc((100% - 48px) / 3);
@@ -386,10 +387,8 @@ padding: 188px 0;
   width:100%;
   min-width:264;
 }
-.portfolio-image:hover{
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-.portfolio-image:focus {
+.portfolio-image:hover, 
+:focus{
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .footer-container{
@@ -531,4 +530,7 @@ justify-content: center;
 }
 .svg-icons-section-four{
   fill: var(--color-light);
+}
+.footer-list{
+  gap: 16px;
 }
